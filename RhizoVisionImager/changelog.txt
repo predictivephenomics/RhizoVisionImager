@@ -1,0 +1,25 @@
+version 1.0.0:
+-------------
+Initial version.
+
+RhizoVision Imager can connect to multiple Basler vision cameras and capture images
+according to the imaging needs. It supports the following features:
+* Live view from the Basler vision cameras connected.
+* For each Basler vision camera, exposure time, gain and gamma can be changed. These settings may be saved as profiles and loaded for a similar experiment.
+* Simultaneous control and capture of multiple Basler vision cameras.
+* Barcode readers without need for additional drivers.
+* Interval imaging from multiple Basler vision cameras with a minimum approximate time interval of 1 second.
+* Loads sample plot names and accordingly names captured images when Enter key is pressed.
+
+version 1.0.1:
+-------------
+New features:
+------------
+* Added option to make sound when an image is captured.
+* Added license information.
+
+Issues fixed:
+------------
+* VisionCameraArray.cpp: Memory allocation and performance improvement fixes.
+  The queue images to be captured are preallocated and the image data is copied 
+  into these buffers whenever images are captured for faster performance.
