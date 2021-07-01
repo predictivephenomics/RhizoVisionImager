@@ -1,5 +1,7 @@
 # ![RhiZoVision Imager Logo](./rvimagerlogo.png) RhizoVision Imager
 
+Note! The copyright of RhizoVision Imager has transferred from Noble Research Institute, LLC to the developers Larry York and Anand Seethepalli effective June 29, 2021. These pages, licenses, and code will be updated shortly to reflect this change. 
+
 RhizoVision Analyzer is an application that connects to multiple Basler USB 3.0
 vision cameras to take picture of an object from multiple views or take multiple
 parts of an object. The program supports taking pictures from cameras using
